@@ -1,0 +1,175 @@
+.w1200 {
+    width : 1200px;
+    margin: 0 auto;
+}
+
+.stit {
+    width        : 1200px;
+    height       : 53px;
+    text-align   : left;
+    margin       : 0 auto;
+    margin-top   : 20px;
+    border-bottom: 1px dashed #EAEAEA;
+}
+
+.stit span {
+    font-size  : 12px;
+    line-height: 53px;
+}
+
+.stit span a:hover {
+    color: #FF0000;
+}
+
+.btit {
+    height          : 372px;
+}
+
+.btit h3 {
+    text-align    : center;
+    font-weight   : normal;
+    padding-bottom: 40px;
+    margin-bottom : 16px;
+    clear         : both;
+    border-bottom    : solid 1px #e5e5e5;
+    font-size     : 26px;
+}
+
+.art {
+    padding  : 30px 25px 0;
+    width    : 670px;
+    height   : auto;
+    font-size: 14px;
+    color    : #999999;
+    float    : left;
+}
+
+.art li {
+    margin-bottom: 20px;
+}
+
+.w_l {
+    float: left
+}
+
+.w_r {
+    float: right;
+}
+
+.w_btn {
+    clear      : both;
+    text-align : center;
+    padding-top: 50px;
+}
+
+.l_btn {
+    display         : inline-block;
+    width           : 140px;
+    height          : 40px;
+    line-height     : 40px;
+    text-align      : center;
+    font-size       : 18px;
+    color           : #ffffff !important;
+    background-color: #2590d7;
+    box-shadow      : 0px 3px 3px 0px rgb(79 174 235 / 29%);
+    border-radius   : 20px;
+}
+
+.r_btn {
+    width        : 138px;
+    height       : 38px;
+    line-height  : 38px;
+    border-radius: 20px;
+    display      : inline-block;
+    color        : #2590d7 !important;
+    font-size    : 18px;
+    border       : solid 1px #2590d7;
+    margin       : 0 0 0 80px;
+}
+
+.aside {
+    width           : 314px;
+    height          : 246px !important;
+    font-size       : 14px;
+    line-height     : 30px;
+    box-sizing      : border-box;
+    padding         : 10px 20px 50px;
+    background-color: #f2f7fa;
+    overflow-y      : auto;
+    float           : right
+}
+
+.hot_text {
+    height          : 150px;
+    clear           : both;
+}
+
+.hot_text h3{
+    border-top    : solid 1px #e5e5e5;
+    text-align: left;
+    margin-top: 20px;
+}
+.hot_text ul {
+    padding: 0;
+}
+
+.hot_text li {
+    display      : list-item;
+    float        : left;
+    width        : 33%;
+    white-space  : nowrap;
+    text-overflow: ellipsis;
+    overflow     : hidden;
+
+    line-height: 40px;
+}
+
+.hot_text a {
+    font-size: 12px;
+}
+
+.hot_text a:hover {
+    color: #FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 媒体查询 */
+@media screen and (max-width:576px) {
+    .w1200{
+        width: 576px;
+    }
+    .stit span{
+        line-height: normal;
+    }
+    .stit span a{
+        margin: 0;
+        padding: 0;
+    }
+    .btit {
+        height: 555px;
+    }
+    .btit h3{
+        font-size: 20px;
+    }
+    .art{
+        width: 576px;
+        padding: 0 0;
+        float: none;
+    }
+    .aside {
+        margin-top: 25px;
+        width: 576px;
+        float: none;
+    }
+}

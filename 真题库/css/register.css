@@ -1,0 +1,109 @@
+#all_box {
+    width : 1130px;
+    height: 475px;
+    margin: 0 auto;
+}
+
+.left_box {
+    width        : 895px;
+    height       : 435px;
+    margin       : 0 auto;
+    margin-top   : 20px;
+    margin-bottom: 20px;
+    border       : 5px solid #DEDEDE;
+    float        : left;
+}
+
+.tt h2 {
+    font-weight: lighter;
+    color      : #CC1632;
+    font-size  : 20px;
+    margin-left: 5px;
+}
+
+.matter {
+    height    : 280px;
+    border-top: 1px dashed #ccc;
+}
+
+
+.matter div input {
+    width       : 500px;
+    height      : 45px;
+    line-height : 45px;
+    border      : 1px solid #ccc;
+    font-size   : 16px;
+    padding-left: 6px;
+    margin      : 12px 10px;
+
+}
+
+.matter div label {
+    display     : inline-block;
+    width       : 80px;
+    text-align  : right;
+    margin-right: 12px;
+    font-size   : 18px;
+}
+
+.matter div span {
+    color: #FF0000;
+}
+
+#logOn input {
+    width        : 138px;
+    height       : 38px;
+    line-height  : 38px;
+    text-align   : center;
+    font-size    : 20px;
+    font-weight  : bolder;
+    color        : white;
+    border-radius: 4px;
+    background   : linear-gradient(to bottom, #8DD5C9, #31AB92);
+    margin-left  : 105px;
+    cursor       : pointer;
+}
+
+.right_box {
+    width : 220px;
+    height: 435px;
+    margin: 0 auto;
+    float : left;
+}
+
+.right_box ul li {
+    margin: 15px 0;
+}
+
+.right_box input {
+    width        : 95px;
+    height       : 26px;
+    color        : white;
+    background   : linear-gradient(to bottom, #CBE175, #80A835);
+    outline      : none;
+    border       : none;
+    border-radius: 3px;
+    cursor       : pointer;
+}
+
+
+@media screen and (max-width:576px) {
+    #all_box {
+        width : 576px;
+        height: 475px;
+        margin: 0 auto;
+    }
+
+    .right_box {
+        display: none;
+    }
+
+    .left_box {
+        width        : 564px;
+        float        : none;
+    }
+
+    .matter div input {
+        width: 400px;
+    }
+}

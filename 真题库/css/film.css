@@ -1,0 +1,112 @@
+.w1200 {
+    width : 1200px;
+    margin: 0 auto;
+}
+
+.stit {
+    width        : 1200px;
+    height       : 53px;
+    text-align   : left;
+    margin       : 0 auto;
+    margin-top   : 20px;
+    border-bottom: 1px dashed #EAEAEA;
+}
+
+.stit span {
+    font-size  : 12px;
+    line-height: 53px;
+}
+
+.stit span a:hover {
+    color: #FF0000;
+}
+
+.btit {
+    height: 372px;
+}
+
+.btit h3 {
+    text-align    : center;
+    font-weight   : normal;
+    padding-bottom: 40px;
+    margin-bottom : 16px;
+    clear         : both;
+    border-bottom : solid 1px #e5e5e5;
+    font-size     : 26px;
+}
+.art {
+    text-align: center;
+}
+
+.art video {
+    width : 640px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+
+
+
+.hot_text {
+    height: 150px;
+    clear : both;
+}
+
+.hot_text h3 {
+    border-top   : solid 1px #e5e5e5;
+    text-align   : left;
+    margin-top   : 20px;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.hot_text ul {
+    padding: 0;
+}
+
+.hot_text li {
+    display      : list-item;
+    float        : left;
+    width        : 33%;
+    white-space  : nowrap;
+    text-overflow: ellipsis;
+    overflow     : hidden;
+
+    line-height: 40px;
+}
+
+.hot_text a {
+    font-size: 12px;
+}
+
+.hot_text a:hover {
+    color: #FF0000;
+}
+
+
+
+
+/* 媒体查询 */
+@media screen and (max-width:576px) {
+    .w1200 {
+        width : 576px;
+        margin: 0 auto;
+    }
+    .stit span{
+        line-height: normal;
+    }
+    .btit {
+        height: 555px;
+    }
+    .btit h3{
+        font-size: 18px;
+    }
+    .art{
+        width: 576px;
+    }
+    .art video{
+        width: 576px;
+    }
+    
+
+}

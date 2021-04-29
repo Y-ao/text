@@ -1,0 +1,251 @@
+.main {
+    margin-top: 20px;
+    margin    : 0 auto;
+    width     : 1200px;
+    height    : 550px;
+}
+
+.tit {
+    font-size : 12px;
+    margin-top: 20px;
+}
+
+.tit>a:hover {
+    color: #FF0000;
+}
+
+.ex_left {
+    width: 75%;
+    float: left;
+}
+
+.bs {
+    box-shadow: 0 0 20px #ddd;
+}
+
+.ex_s {
+    clear         : both;
+    text-align    : center;
+    padding-top   : 10px;
+    padding-bottom: 10px;
+}
+
+.ex_s h4 {
+    font-size    : 18px;
+    font-weight  : 500;
+    margin-top   : 10px;
+    margin-bottom: 10px;
+}
+
+.ex_z {
+    height        : auto;
+    margin-top    : 10px;
+    padding-top   : 10px;
+    padding-bottom: 10px;
+    font-size     : 14px;
+    line-height   : 25px;
+}
+
+.ex_z>div {
+    width : 96%;
+    margin: 0 auto;
+}
+
+.ex_an {
+    margin-top: 30px;
+}
+
+.ex_x {
+    width     : 100%;
+    margin-top: 10px;
+    height    : 50px;
+    font-size : 14px;
+}
+
+.ex_x ul {
+    display: block;
+    height : 50px;
+    padding: 0;
+    margin : 0;
+}
+
+.ex_x ul li {
+    width      : 449px;
+    float      : left;
+    height     : 50px;
+    line-height: 50px;
+    text-align : center;
+    cursor     : pointer;
+}
+
+.ex_x li:first-child {
+    border-right: 1px solid #ddd;
+}
+
+.ex_x li:hover {
+    color           : #fff;
+    background-color: #337AB7;
+}
+
+.ex_right {
+    width    : 22%;
+    float    : right;
+    height   : auto;
+    font-size: 14px;
+}
+
+.ex_r {
+    overflow      : hidden;
+    color         : rgb(143, 143, 143);
+    padding-bottom: 15px;
+}
+
+.r_time {
+    width        : 80%;
+    margin       : 0 auto;
+    line-height  : 21px;
+    margin-top   : 15px;
+    margin-bottom: 15px;
+    background   : url(../img/time.png) no-repeat left;
+    padding-left : 25px;
+}
+
+.r_time span:first-child {
+    line-height: 22px;
+    height     : 22px;
+    font-size  : 20px
+}
+
+.full_screen {
+    margin-left : 16px;
+    background  : url(../img/computer.png) no-repeat left;
+    padding-left: 18px;
+    cursor      : pointer;
+}
+
+.ex_r h4 {
+    margin          : 0 auto;
+    background-color: rgb(221, 221, 221);
+    padding         : 10px 0;
+    text-align      : center;
+    font-size       : 18px;
+}
+
+.options {
+    max-height: 200px;
+    overflow  : auto;
+    margin-top: 10px;
+}
+
+.options div {
+    clear        : both;
+    padding-left : 10px;
+    margin-bottom: 6px;
+}
+
+.options li {
+    width     : 20px;
+    height    : 20px;
+    overflow  : hidden;
+    float     : left;
+    border    : 1px solid #ddd;
+    margin    : 0 0 10px 10px;
+    text-align: center;
+    cursor    : pointer;
+    font-size : 12px;
+}
+
+.flag {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.flag li {
+    width       : 50px;
+    height      : 52px;
+    float       : left;
+    margin-left : 20px;
+    margin-right: 10px;
+}
+
+.flag li span:first-child {
+    border : 1px solid #ddd;
+    width  : 48px;
+    height : 20px;
+    display: block;
+}
+
+.flag li:first-child span:first-child {
+    background-color: yellow !important;
+}
+
+.flag li:nth-child(3) span:first-child {
+    background-color: rgb(179, 179, 179);
+}
+
+button {
+    width           : 90%;
+    margin          : 0 auto;
+    margin-top      : 10px;
+    margin-left     : 5%;
+    color           : #fff;
+    background-color: #337ab7;
+    border-color    : #2e6da4;
+    display         : inline-block;
+    font-size       : 14px;
+    font-weight     : 400;
+    line-height     : 30px;
+    white-space     : nowrap;
+    vertical-align  : middle;
+    cursor          : pointer;
+    border          : 1px solid transparent;
+    border-radius   : 4px;
+}
+
+
+
+
+/* 媒体查询 */
+@media screen and (max-width:576px) {
+    .w1200 {
+        width : 576px;
+        margin: 0 auto;
+    }
+
+    .main {
+        width : 576px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .ex_s h4 {
+        font-size: 14px;
+    }
+
+    .ex_x {
+        width: 100%;
+    }
+
+    .ex_x ul li {
+        width: 49%;
+    }
+
+    .ex_x li:first-child {
+        border-right: 1px solid #ddd;
+        width       : 287px;
+    }
+    .ex_x li:last-child
+    {
+        width: 288px;
+    }
+
+    .ex_left {
+        width: 100%;
+        float: none;
+    }
+
+    .ex_right {
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,242 @@
+table {
+    width : 1200px;
+    height: 395px;
+    margin: 0 auto;
+}
+
+.bigBox div {
+    width        : 100px;
+    height       : 50px;
+    float        : left;
+    margin-right : 8px;
+    margin-bottom: 35px;
+    line-height  : 50px;
+    text-align   : center;
+    font-size    : 18px;
+    border       : 1px dashed #ccc;
+}
+
+.word {
+    width      : 600px;
+    clear      : both;
+    text-indent: 2em;
+}
+
+.entirety {
+    width : 1200px;
+    height: 1359px;
+    margin: 0 auto;
+}
+
+.tt h2 {
+    display: inline;
+    margin : 0;
+    padding: 0;
+}
+
+.tt h2:first-child {
+    color: #CC1632;
+}
+
+.paper {
+    width           : 1200px;
+    height          : 420px;
+    background-color: #F5F5F5;
+}
+
+.fir {
+    width        : 1200px;
+    height       : 60px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.fir h2 {
+    float      : left;
+    margin     : 0;
+    padding    : 0;
+    display    : inline-block;
+    margin-left: 20px;
+    line-height: 60px;
+}
+
+.fir ul li {
+    float       : right;
+    line-height : 60px;
+    margin-right: 15px;
+}
+
+.fir ul li a:hover {
+    color: #CC1632;
+}
+
+.sec {
+    width        : 1200px;
+    height       : 88px;
+    position     : relative;
+    border-bottom: 1px dashed #999999;
+}
+
+.sec span {
+    display    : block;
+    margin-top : 30px;
+    margin-left: 40px;
+}
+
+.sec ul li {
+    float       : left;
+    margin-right: 30px;
+    color       : #999999;
+}
+
+.sec input {
+    border       : 1px solid #007CC2;
+    border-radius: 4px;
+    color        : #007CC2;
+    width        : 94px;
+    height       : 36px;
+    position     : absolute;
+    top          : 8px;
+    right        : 50px;
+    cursor       : pointer
+}
+
+.thr {
+    width        : 1200px;
+    height       : 88px;
+    position     : relative;
+    border-bottom: 1px dashed #999999;
+}
+
+.thr span {
+    display    : block;
+    margin-top : 30px;
+    margin-left: 40px;
+}
+
+.thr ul li {
+    float       : left;
+    margin-right: 30px;
+    color       : #999999;
+}
+
+.thr input {
+    border       : 1px solid #007CC2;
+    border-radius: 4px;
+    color        : #007CC2;
+    width        : 94px;
+    height       : 36px;
+    position     : absolute;
+    top          : 8px;
+    right        : 50px;
+    cursor       : pointer
+}
+
+.fou {
+    width   : 1200px;
+    height  : 88px;
+    position: relative;
+}
+
+.fou span {
+    display    : block;
+    margin-top : 30px;
+    margin-left: 40px;
+}
+
+.fou ul li {
+    float       : left;
+    margin-right: 30px;
+    color       : #999999;
+}
+
+.fou input {
+    border       : 1px solid #007CC2;
+    border-radius: 4px;
+    color        : #007CC2;
+    width        : 94px;
+    height       : 36px;
+    position     : absolute;
+    top          : 8px;
+    right        : 50px;
+    cursor       : pointer;
+
+}
+
+
+
+
+
+
+/* 媒体查询 */
+@media screen and (max-width:576px) {
+    table {
+        width       : 100%;
+        margin-right: 0px;
+    }
+
+    tbody {
+        width: 576px;
+    }
+
+    tbody tr {
+        width: 576px;
+    }
+
+    tbody td {
+        padding: 0;
+    }
+
+    tbody td:first-child {
+        width: 574px;
+    }
+
+    table tbody tr td:last-child {
+        display: none;
+    }
+
+    .paper {
+        margin: 0 auto;
+    }
+
+    .bigBox {
+        display        : flex;
+        width          : 572px;
+        justify-content: space-around;
+    }
+
+    .word {
+        width: 572px;
+    }
+
+
+    .entirety {
+        width : 576px;
+        height: 1310px;
+    }
+
+    .paper,
+    .fir,
+    .sec,
+    .thr,
+    .fou {
+        width: 576px;
+    }
+
+    .fir>ul {
+        display: none;
+    }
+
+    .paper ul li {
+        margin-right: 15px;
+    }
+
+    .paper form {
+        display: none;
+    }
+
+    .paper input {
+        display: none;
+    }
+
+
+}
